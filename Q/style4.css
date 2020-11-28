@@ -1,0 +1,51 @@
+.main {
+    margin: 2rem auto;
+    height: 90vh;
+    background-image: url('../../IMG/05.jpg');
+    background-repeat: no-repeat;
+    background-position: top, center;
+}
+
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.q {
+    font-family: BMDOHYEON;
+    margin: 0 1rem;
+    padding-top: 7rem;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.mid {
+    padding-top: 7rem;
+}
+
+.btn {
+    font-family: BMDOHYEON;
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px #007bff solid;
+    border-radius: .3rem;
+    margin: 1.2rem auto;
+    background-color: #007bff;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    transition: all 0.9s, color 0.3;
+}
+
+.btn:start {
+    color: #333;
+}
+
+.start:hover {
+    box-shadow: -200px 0 0 0 rgba(0, 0, 0, 0.5) inset;
+}
