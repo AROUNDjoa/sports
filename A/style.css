@@ -1,0 +1,93 @@
+.main {
+    background-image: url('../../IMG/06.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+    background-position: top, center;
+}
+
+@font-face {
+    font-family: 'BMDOHYEON';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.top {
+    font-family: BMDOHYEON;
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.mid {
+    font-family: BMDOHYEON;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.sub {
+    margin-left: 6%;
+    margin-bottom: 3rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.score {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.memo {
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.cheerup {}
+
+.down {
+    margin: 4rem;
+}
+
+.btn {
+    font-family: BMDOHYEON;
+    display: block;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px #007bff solid;
+    ;
+    border-radius: .3rem;
+    margin: 15px auto;
+    background-color: #007bff;
+    text-align: center;
+    cursor: pointer;
+
+    color: white;
+    transition: all 0.9s, color 0.3;
+}
+
+.btn:start {
+    color: #333;
+}
+
+.start:hover {
+    box-shadow: -200px 0 0 0 rgba(0, 0, 0, 0.5) inset;
+}
+
+.down {
+}
